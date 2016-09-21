@@ -1,5 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: gray;
-  color: yellow;
+  background-image: linear-gradient(to bottom, #2a7557, #77ae98);
+  background-repeat: no-repeat;
+  color: white;
   font-family: Arial, sans-serif;
+}
+
+.content {
+  width: 100%;
+  background-color: #77ae98;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.profilePic {
+  border-radius: 100px;
+  width: 100px;
+  margin: 10px;
+}
+
+.twitterIcon {
+  color: lightblue;
+  font-size: 2em;
+}
+
+.githubIcon {
+  color: black;
+  font-size: 2em;
 }
