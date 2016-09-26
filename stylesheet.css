@@ -6,13 +6,43 @@ body {
   background-image: linear-gradient(to bottom, #2a7557, #77ae98);
   background-repeat: no-repeat;
   color: white;
-  font-family: Arial, sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Lora', serif;
 }
 
 .content {
   width: 100%;
   background-color: #77ae98;
   border-radius: 20px;
+  text-align: center;
+}
+
+.middleContainer {
+  width: 100%;
+}
+
+.middle:first-child .middle:last-child {
+  border-radius: 20px;
+}
+
+.middle {
+  width: 33.3%;
+  background-color: #2a7557;
+  float: left;
+  /*margin-left: auto;*/
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.bottomContainer {
+  width: 100%;
+}
+
+.bottomColumn {
+  width: 40%;
+  background-color: #2a7557;
+  float: left;
+  margin: 1% 5%;
   text-align: center;
 }
 
